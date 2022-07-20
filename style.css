@@ -39,15 +39,17 @@ main{
   font-weight: 400;
   font-size: 16px;
   margin-top: 50px;
+  
 }
 .show-detail p{
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .show-detail a{
     width: 187px;
     height: 56px;
     color: #FFFFFF;
-    
+    cursor: wait;
     text-decoration: none;
 }
 .show-detail .anchor{
