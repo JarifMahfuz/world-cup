@@ -175,7 +175,14 @@ margin: 15px;
 
 /* problem */
 
-.blogs-part{
+.aside-blogs{
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.blogs-part{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
  
