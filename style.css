@@ -5,6 +5,7 @@
 body{
     background-color:#F3F1FF;
     font-family: 'Oswald', sans-serif;
+    width: 100%;
 }
 main{
   display: flex;
@@ -80,7 +81,8 @@ h2{
  --------------*/
  
  .aside-part{
-  margin: 20px;
+  margin: 0 20px;
+  margin-left: 40px;
  }
 
  .side-bar{
@@ -193,11 +195,15 @@ footer{
   width: 100%;
 height: 444px;
 background: #161616;
-text-align: center;
-align-items: center;
+
 
 }
 
+.full-footer{
+  text-align: center;
+  align-items: center;
+
+}
 .headline{
   width: 95px;
 height: 60px;
