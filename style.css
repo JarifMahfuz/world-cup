@@ -7,38 +7,37 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container{
-    background: #161616;
-    width: 1200px;
-    height: 646px;
-    border-radius: 30px;
-    margin-bottom: 130px;
+  background: #161616;
+  width: 1200px;
+  height: 646px;
+  border-radius: 30px;
+  margin-bottom: 130px;
 }
 
 .show-info{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 25px;
-    border-radius: 30px;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 25px;
+  border-radius: 30px;
+  width: 100%;
 }
 .show-info img{
-    width: 581px;
-    height: 613px;
-    margin-top: 33px;
-    
+  width: 581px;
+  height: 613px;
+  margin-top: 33px;
 }
 .show-detail{
-    width: 450px;
-    height: 400px;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 50px;
+  width: 450px;
+  height: 400px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 50px;
 }
 .show-detail p{
     margin-bottom: 20px;
@@ -51,7 +50,7 @@ main{
     text-decoration: none;
 }
 .show-detail .anchor{
-    /* display: flex;
+     /* display: flex;
     flex-direction: row;
     align-items: flex-start; */
     /* padding: 16px 25px; */
@@ -61,6 +60,7 @@ main{
     height: 30px;
     border-radius: 5px;
     text-align: center;
+    
     
 }
 .fa-solid{
@@ -76,35 +76,91 @@ h2{
 }
 
 /*-------------
- side-bar 
+ Match-Side-bar
  --------------*/
+ .match-player{
+    /* display: flex;
+    margin: 50px; */
+ }
  .match{
-    margin-top: 10px;
+    margin-top: 10px; 
+    
  }
  .side-bar{
-    width: 280px;
-    height: 250px;
-    background: #161616;
-    color: #FFFFFF;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  width: 280px;
+  height: 250px;
+  background: #161616;
+  color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
  }
  .upcoming-match, .all-group, .blog{
-    width: 174px;
-    height: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    color: black;
-    text-align: center;
-    align-items: center;
-    margin: 20px;
-    background-color: #F3F1FF;
-    border-radius: 10px;
+  width: 174px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  background-color: #F3F1FF;
+  border-radius: 10px;
  }
  .blog{
     background-color: #DD0000;
     color: #FFFFFF;
  }
+
+ /*------------------
+  players-bar 
+  ------------------*/----------------------------------------------------------------------
+
+  /* The new probs is starting from here */
+
+
+  .player-img img{
+    width: 312px;
+    height: 175px;
+  }
+  
+  .first-pera{
+    border: 1px solid black;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 15px;
+  }
+  .next-pera{
+    width: 272px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+  }
+
+  /* rateing */
+  .icon{
+    width: 143px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .first{
+    width: 60px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  .first p{
+    margin-left: 10px;
+  }
+ 
