@@ -79,14 +79,10 @@ h2{
  Match-Side-bar
  --------------*/
  
- /* .aside-blogs{
-  display: flex;
- 
- } */
- .aside{
-    margin-top: 10px; 
-    
+ .aside-part{
+  margin: 20px;
  }
+
  .side-bar{
   width: 280px;
   height: 250px;
@@ -178,11 +174,12 @@ margin: 15px;
 .aside-blogs{
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  
 
 }
 .blogs-part{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
 }
  
